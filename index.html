@@ -1,5 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,19 +21,31 @@
     <header class="fixed w-full z-50 bg-gray-900/95 backdrop-blur-sm border-b border-gray-800">
         <nav class="container mx-auto px-6 py-4">
             <div class="flex items-center justify-between">
-                <a href="#" class="text-2xl font-bold text-white flex items-center space-x-2">
+                <a href="https://test-acc-12349.github.io/---online-ninja-2025-02-08-swer3" class="text-2xl font-bold text-white flex items-center space-x-2 hover:scale-105 transition-all duration-300">
                     <span>🥷</span>
                     <span>Online Ninja</span>
                 </a>
                 <div class="hidden md:flex space-x-8">
-                    <a href="#features" class="text-gray-300 hover:text-white transition-colors duration-300">Features</a>
-                    <a href="#benefits" class="text-gray-300 hover:text-white transition-colors duration-300">Benefits</a>
-                    <a href="#faq" class="text-gray-300 hover:text-white transition-colors duration-300">FAQ</a>
-                    <a href="#contact" class="text-gray-300 hover:text-white transition-colors duration-300">Contact</a>
+                    <a href="#features" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">About</a>
+                    <a href="#faq" class="text-gray-300 hover:text-white hover:scale-105 transition-all duration-300">FAQ</a>
                 </div>
-                <a href="https://ninja200.online" class="hidden md:block bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-full font-medium hover:scale-105 transition-transform duration-300">
+                <button class="mobile-menu-button md:hidden" aria-label="Toggle mobile menu">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+                <a href="https://ninja200.online" class="hidden md:block bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-full font-medium hover:scale-105 hover:shadow-lg transition-all duration-300">
                     Get Started
                 </a>
+            </div>
+            <div class="mobile-menu hidden md:hidden mt-4 bg-gray-800 rounded-lg p-4">
+                <a href="#features" class="block py-2 text-gray-300 hover:text-white">Features</a>
+                <a href="#benefits" class="block py-2 text-gray-300 hover:text-white">Benefits</a>
+                <a href="#testimonials" class="block py-2 text-gray-300 hover:text-white">Testimonials</a>
+                <a href="#about" class="block py-2 text-gray-300 hover:text-white">About</a>
+                <a href="#faq" class="block py-2 text-gray-300 hover:text-white">FAQ</a>
+                <a href="https://ninja200.online" class="block py-2 text-white bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg text-center mt-2">Get Started</a>
             </div>
         </nav>
     </header>
@@ -35,17 +55,17 @@
         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1639762681485-074b7f938ba0')] bg-cover bg-center opacity-10"></div>
         <div class="container mx-auto px-6 py-24 relative z-10">
             <div class="text-center max-w-4xl mx-auto">
-                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text animate-pulse">
                     10X Your Traffic With Ninja SEO 🥷
                 </h1>
                 <p class="text-xl md:text-2xl text-gray-300 mb-12">
-                    Master the art of SEO with expert guidance and proven strategies
+                    Master the art of SEO with expert guidance and proven strategies that deliver real results. Join thousands of successful businesses who've transformed their online presence.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="https://ninja200.online" class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full font-medium text-lg hover:scale-105 transition-transform duration-300 shadow-lg">
+                    <a href="https://ninja200.online" class="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-4 rounded-full font-medium text-lg hover:scale-105 hover:shadow-xl transition-all duration-300">
                         Start Your Journey
                     </a>
-                    <a href="#features" class="bg-gray-800 text-white px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-700 transition-colors duration-300">
+                    <a href="#features" class="bg-gray-800 text-white px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-700 hover:scale-105 transition-all duration-300">
                         Learn More
                     </a>
                 </div>
@@ -58,26 +78,26 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Master SEO With Expert Support</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 transition-transform duration-300 shadow-xl">
+                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 hover:shadow-2xl transition-all duration-300">
                     <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full flex items-center justify-center mb-6">
                         <i class="fas fa-laptop-code text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Online Learning</h3>
-                    <p class="text-gray-400">Access comprehensive SEO courses and resources at your own pace</p>
+                    <h3 class="text-xl font-bold mb-4">Comprehensive Online Learning</h3>
+                    <p class="text-gray-400">Access our extensive library of SEO courses, tutorials, and resources. Learn at your own pace with step-by-step guidance and practical exercises.</p>
                 </div>
-                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 transition-transform duration-300 shadow-xl">
+                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 hover:shadow-2xl transition-all duration-300">
                     <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full flex items-center justify-center mb-6">
                         <i class="fas fa-users text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">1-on-1 Mentoring</h3>
-                    <p class="text-gray-400">Get personalized guidance from SEO experts who know the industry</p>
+                    <h3 class="text-xl font-bold mb-4">Personalized 1-on-1 Mentoring</h3>
+                    <p class="text-gray-400">Get direct guidance from industry experts with proven track records. Regular coaching sessions tailored to your specific needs and goals.</p>
                 </div>
-                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 transition-transform duration-300 shadow-xl">
+                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 hover:shadow-2xl transition-all duration-300">
                     <div class="w-16 h-16 bg-gradient-to-br from-purple-500 to-blue-500 rounded-full flex items-center justify-center mb-6">
                         <i class="fas fa-chart-line text-2xl"></i>
                     </div>
-                    <h3 class="text-xl font-bold mb-4">Monthly Strategy Sessions</h3>
-                    <p class="text-gray-400">Stay ahead with regular strategy updates and performance reviews</p>
+                    <h3 class="text-xl font-bold mb-4">Strategic Growth Planning</h3>
+                    <p class="text-gray-400">Monthly strategy sessions to analyze performance, adjust tactics, and stay ahead of industry trends. Data-driven decisions for maximum impact.</p>
                 </div>
             </div>
         </div>
@@ -86,23 +106,79 @@
     <!-- Benefits Section -->
     <section id="benefits" class="py-24 bg-gray-900">
         <div class="container mx-auto px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Proven Results</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Proven Results That Speak Volumes</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
-                <div class="text-center">
+                <div class="text-center hover:scale-105 transition-all duration-300">
                     <div class="text-5xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text mb-4">10X</div>
-                    <h3 class="text-xl font-bold mb-2">Organic Traffic</h3>
-                    <p class="text-gray-400">Drive massive traffic growth through optimized content</p>
+                    <h3 class="text-xl font-bold mb-2">Organic Traffic Growth</h3>
+                    <p class="text-gray-400">Experience exponential growth in qualified organic traffic through our proven SEO strategies and content optimization techniques.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center hover:scale-105 transition-all duration-300">
                     <div class="text-5xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text mb-4">3X</div>
-                    <h3 class="text-xl font-bold mb-2">Conversion Rates</h3>
-                    <p class="text-gray-400">Convert more visitors into loyal customers</p>
+                    <h3 class="text-xl font-bold mb-2">Higher Conversion Rates</h3>
+                    <p class="text-gray-400">Triple your conversion rates with targeted traffic and optimized user experience strategies that turn visitors into customers.</p>
                 </div>
-                <div class="text-center">
+                <div class="text-center hover:scale-105 transition-all duration-300">
                     <div class="text-5xl font-bold bg-gradient-to-r from-purple-400 to-blue-400 text-transparent bg-clip-text mb-4">5★</div>
-                    <h3 class="text-xl font-bold mb-2">Reviews</h3>
-                    <p class="text-gray-400">Build trust with authentic customer feedback</p>
+                    <h3 class="text-xl font-bold mb-2">Client Satisfaction</h3>
+                    <p class="text-gray-400">Join our community of satisfied clients who consistently rate our services 5 stars for delivering exceptional results.</p>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-800">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">What Our Clients Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">★★★★★</div>
+                    </div>
+                    <p class="text-gray-300 mb-4">"The SEO strategies provided by Online Ninja helped us increase our organic traffic by 12x in just 6 months. Their mentoring program is worth every penny!"</p>
+                    <div class="font-bold">Sarah Johnson</div>
+                    <div class="text-sm text-gray-400">Marketing Director, TechStart Inc.</div>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">★★★★★</div>
+                    </div>
+                    <p class="text-gray-300 mb-4">"The monthly strategy sessions have been invaluable for keeping our SEO efforts on track. We've seen a 300% increase in qualified leads since starting."</p>
+                    <div class="font-bold">Michael Chen</div>
+                    <div class="text-sm text-gray-400">CEO, Digital Solutions Co.</div>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">★★★★★</div>
+                    </div>
+                    <p class="text-gray-300 mb-4">"As a complete SEO beginner, their comprehensive training made everything clear and actionable. Now our site ranks #1 for multiple key terms."</p>
+                    <div class="font-bold">Emma Roberts</div>
+                    <div class="text-sm text-gray-400">Founder, Wellness Warriors</div>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-8 hover:scale-105 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400">★★★★★</div>
+                    </div>
+                    <p class="text-gray-300 mb-4">"The personalized attention and expert guidance have transformed our online presence. Our e-commerce sales have doubled in just 3 months."</p>
+                    <div class="font-bold">David Thompson</div>
+                    <div class="text-sm text-gray-400">Owner, Elite Sportswear</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-900">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">About Online Ninja</h2>
+            <div class="max-w-3xl mx-auto space-y-8">
+                <p class="text-gray-300 leading-relaxed">
+                    Founded in 2020 by a team of passionate SEO experts, Online Ninja emerged from a simple vision: to make professional SEO knowledge accessible to businesses of all sizes. What started as a small consulting practice has grown into a global community of digital marketing success stories.
+                </p>
+                <p class="text-gray-300 leading-relaxed">
+                    Our mission is to empower businesses with the tools, knowledge, and strategies needed to dominate their online presence. We believe in transparent, ethical SEO practices that deliver sustainable results, backed by data-driven decisions and continuous innovation in our approach.
+                </p>
             </div>
         </div>
     </section>
@@ -112,28 +188,37 @@
         <div class="container mx-auto px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-16">Frequently Asked Questions</h2>
             <div class="max-w-3xl mx-auto space-y-6">
-                <div class="bg-gray-900 rounded-xl p-6">
+                <div class="bg-gray-900 rounded-xl p-6 hover:scale-105 transition-all duration-300">
                     <h3 class="text-xl font-bold mb-4">How long does it take to see results?</h3>
-                    <p class="text-gray-400">Most clients see significant improvements within 3-6 months of implementing our strategies.</p>
+                    <p class="text-gray-400">Most clients see initial improvements within 3-6 months, with significant results typically showing after 6-12 months of consistent implementation. Results vary based on your starting point, industry competition, and commitment to the program.</p>
                 </div>
-                <div class="bg-gray-900 rounded-xl p-6">
+                <div class="bg-gray-900 rounded-xl p-6 hover:scale-105 transition-all duration-300">
                     <h3 class="text-xl font-bold mb-4">Do I need technical experience?</h3>
-                    <p class="text-gray-400">No technical experience required. Our program is designed for beginners to advanced users.</p>
+                    <p class="text-gray-400">No technical experience is required. Our program is designed to guide you from the basics to advanced techniques, with step-by-step instructions and ongoing support to ensure your success.</p>
                 </div>
-                <div class="bg-gray-900 rounded-xl p-6">
+                <div class="bg-gray-900 rounded-xl p-6 hover:scale-105 transition-all duration-300">
                     <h3 class="text-xl font-bold mb-4">What support is included?</h3>
-                    <p class="text-gray-400">You'll get access to online courses, 1-on-1 mentoring, and monthly strategy sessions.</p>
+                    <p class="text-gray-400">Your membership includes unlimited access to our online course library, monthly 1-on-1 mentoring sessions, weekly group Q&A calls, and our private community of successful SEO practitioners.</p>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-6 hover:scale-105 transition-all duration-300">
+                    <h3 class="text-xl font-bold mb-4">Can I cancel my subscription?</h3>
+                    <p class="text-gray-400">Yes, you can cancel your subscription at any time with no questions asked. We offer a 30-day money-back guarantee for new members to ensure you're completely satisfied.</p>
+                </div>
+                <div class="bg-gray-900 rounded-xl p-6 hover:scale-105 transition-all duration-300">
+                    <h3 class="text-xl font-bold mb-4">Is this suitable for my industry?</h3>
+                    <p class="text-gray-400">Our strategies have been successfully implemented across diverse industries, from e-commerce to professional services. We'll help you adapt our proven frameworks to your specific niche.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
-    <section class="py-24 bg-gradient-to-br from-purple-900 to-blue-900">
-        <div class="container mx-auto px-6 text-center">
+    <section class="py-24 bg-gradient-to-br from-purple-900 to-blue-900 relative overflow-hidden">
+        <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1522542550221-31fd19575a2d')] bg-cover bg-center opacity-10"></div>
+        <div class="container mx-auto px-6 text-center relative z-10">
             <h2 class="text-3xl md:text-4xl font-bold mb-8">Ready to Become an SEO Ninja?</h2>
-            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Join our community of successful digital marketers and transform your online presence</p>
-            <a href="https://ninja200.online" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-full font-medium text-lg hover:scale-105 transition-transform duration-300 shadow-lg">
+            <p class="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">Join our community of successful digital marketers and transform your online presence today. Start your journey to SEO mastery!</p>
+            <a href="https://ninja200.online" class="inline-block bg-white text-gray-900 px-8 py-4 rounded-full font-medium text-lg hover:scale-105 hover:shadow-xl transition-all duration-300">
                 Start Your Journey Today
             </a>
         </div>
@@ -145,25 +230,28 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
                 <div>
                     <h3 class="text-xl font-bold mb-4">Online Ninja</h3>
-                    <p class="text-gray-400">Transform your online presence with expert SEO strategies</p>
+                    <p class="text-gray-400">Transform your online presence with expert SEO strategies and personalized mentoring.</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#features" class="hover:text-white transition-colors duration-300">Features</a></li>
-                        <li><a href="#benefits" class="hover:text-white transition-colors duration-300">Benefits</a></li>
-                        <li><a href="#faq" class="hover:text-white transition-colors duration-300">FAQ</a></li>
+                        <li><a href="#features" class="hover:text-white hover:translate-x-2 transition-all duration-300 inline-block">Features</a></li>
+                        <li><a href="#benefits" class="hover:text-white hover:translate-x-2 transition-all duration-300 inline-block">Benefits</a></li>
+                        <li><a href="#testimonials" class="hover:text-white hover:translate-x-2 transition-all duration-300 inline-block">Testimonials</a></li>
+                        <li><a href="#about" class="hover:text-white hover:translate-x-2 transition-all duration-300 inline-block">About</a></li>
+                        <li><a href="#faq" class="hover:text-white hover:translate-x-2 transition-all duration-300 inline-block">FAQ</a></li>
                     </ul>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Contact</h4>
-                    <p class="text-gray-400">admin@ninja200.online</p>
+                    <p class="text-gray-400 hover:text-white transition-colors duration-300">admin@ninja200.online</p>
                 </div>
                 <div>
                     <h4 class="text-lg font-semibold mb-4">Legal</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Privacy Policy</a></li>
-                        <li><a href="#" class="hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/---online-ninja-2025-02-08-swer3/privacy.html" class="hover:text-white hover:translate-x-2 transition-all duration-300 inline-block">Privacy Policy</a></li>
+                        <li><a href="https://test-acc-12349.github.io/---online-ninja-2025-02-08-swer3/terms.html" class="hover:text-white hover:translate-x-2 transition-all duration-300 inline-block">Terms of Service</a></li>
+                        <li><a href="https://test-acc-12349.github.io/---online-ninja-2025-02-08-swer3/blog.html" class="hover:text-white hover:translate-x-2 transition-all duration-300 inline-block">Blog</a></li>
                     </ul>
                 </div>
             </div>
@@ -172,5 +260,36 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
 </body>
 </html>
